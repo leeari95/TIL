@@ -28,10 +28,16 @@
 - `,`는 `condition`을 `이어붙이는 용도`로 쓰는 것이고, `&&`는 `두개의 boolean expression`을 `파라미터로 받는 논리 연산자`이다.
     - `condition을 이어 붙인다`고 했는데, 이렇게 이어 붙여진 condition을 **condition-list**라고 부른다
     - **condition**은 뭘까?
-    `expression, availability-condition, case-condition, optional-binding-condition`
+    `expression`, `availability-condition`, `case-condition`, `optional-binding-condition`
     - `while, if, guard` 문에는 `condition-list`를 쓰지만, `repeat-while` 문에서는 `condition`만 쓸 수 있다.
     - 콤마로 여러 condition을 이어붙이는 것이 **허용된 곳**과 **아닌 곳**이 있는 것이다. 
-    
+        ```swift
+        if let result = result && result {
+        if let result = result , result {
+        ```
+        이 두 구문이 어떻게 다른 것일까?
+        첫번째 구문은 하나의 `expression`이다. 양쪽의 A && B 를 논리연산자로 계산해 참, 거짓의 결과를 가져온다
+        두번째 구문은 `expression`, `expression`으로 이루어진 `condition-list`이다. 즉 두개의 `expression`이 각 각 참이 되어야 if문이 실행된다. 옵셔널 바인딩이 성공하고, 그 값이 참이어야 실행되는 코드를 만들 수 있다.
 
 
 &nbsp;
