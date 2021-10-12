@@ -84,7 +84,7 @@ print(ari[keyPath: \Person.address.town]) // 어디야
 ## 키패스의 종류
 - `AntyKeyPath` 타입이 지워진 KeyPath
 - `PartialKeyPath` 부분적으로 타입이 지워진 KeyPath
-- `KeyPath `Read-only, 읽기 전용
+- `KeyPath` Read-only, 읽기 전용
 - `WritableKeyPath` value type 인스턴스에 사용 가능. 변경 가능한 모든 프로퍼티에 대한 read & write access 제공 
 - `eferenceWritableKeyPath` 클래스의 인스턴스에 사용 가능. 변경 가능한 모든 프로퍼티에 대한 read & write access 제공. 
 
