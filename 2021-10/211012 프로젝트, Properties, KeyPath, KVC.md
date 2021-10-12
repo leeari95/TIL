@@ -63,7 +63,7 @@
 `\타입이름.경로.경로.경로`
 
 ## 키 패스를 사용하는 이유
-키패스는` Metaprogramming`의 한 형태이다. 속성에 대한 위치를 `참조`하여 인스턴스의 속성을 동적으로 읽거나 쓴다.
+키패스는 `Metaprogramming`의 한 형태이다. 속성에 대한 위치를 `참조`하여 인스턴스의 속성을 동적으로 읽거나 쓴다.
 ```swift
 struct Address {
     var town: String
