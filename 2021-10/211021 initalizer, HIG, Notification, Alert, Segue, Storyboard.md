@@ -257,3 +257,4 @@ alertAction을 만드는 순서는 상관없고 추가하는 순서가 중요하
     - [HIG-Undo and Redo](https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/undo-and-redo/)
     - [야곰 iOS 왕초보 강의](https://yagom.net/courses/ios-starter-uikit/)
     - [initalizer](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html)
+    - [Blog - Alert만들기]([https](https://zeddios.tistory.com/111?category=682195))
