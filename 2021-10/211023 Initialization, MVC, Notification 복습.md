@@ -60,5 +60,4 @@ class Person {
 
 - 참고링크
     - [ViewControllers](https://developer.apple.com/documentation/uikit/view_controllers)
-    - [UINavigationController](https://developer.apple.com/documentation/uikit/uinavigationcontroller)
-    - [App Life Cycle](https://developer.apple.com/documentation/uikit/app_and_environment/managing_your_app_s_life_cycle)
+    - [Blog - MVC](https://jiyeonlab.tistory.com/38)
