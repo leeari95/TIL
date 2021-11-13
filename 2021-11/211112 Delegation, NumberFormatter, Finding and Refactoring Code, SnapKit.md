@@ -9,13 +9,10 @@
 &nbsp;
 
 ## 고민한 점 / 해결 방법
-- ### Delegation Patten을 쓸 때 보통 단방향으로 쓰지않나?
-    - Wody에게 물어보았는데 양방향으로 쓰는 경우는 보통 없다고 한다.
 - ### ViewController에서의 간단한 사용방법 정리
     - Main에서 신호를 받아서 처리해야할 일을 protocol에 메서드를 정의해주고, 채택하여 준수한다. (메서드 구현)
     - Main에서 SubView로 넘어가기전에 자신(Main)을 `delegate = self` 라고 알려준 후 다음 화면으로 넘어가게 된다면 다음 화면에서 protocol로 정의해준 메소드를 사용할 수 있게 된다. 이때 delegate는 `protocol 타입`이다.
-- ### 양방향으로 쓸 때는 어떤 용도로 사용할까?
-    - 보통 메서드를 위임할 때에는 단방향으로 사용하고, 프로퍼티, 즉 전역변수를 위임해야하는 경우에는 양방향이 필요할 수도 있다.
+- ### 코드로 이해해보기
     ```swift
     protocol BossDelegate {
         func wakeUp() // 일어나는 일을 위임
@@ -24,7 +21,7 @@
 
     protocol SecretaryDelegate {
         var boss: BossDelegate? { get set } // 보스를 위임
-        // 왜냐하면 보스는 바뀔 수도 있으니깐?
+        // 왜냐하면 보스는 바뀔 수도 있다는 전제하에 확장성을 열어둔 것
     }
 
     class Boss: BossDelegate {
