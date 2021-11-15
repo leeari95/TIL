@@ -44,6 +44,8 @@
 프로그램 언어의 소스코드를 바로 실행하는 컴퓨터 프로그램 또는 환경을 말한다.
 * BASIC, JavaScript, Python, Ruby …
 
+--- 
+
 ### ViewController.swift 파일의 23번째 줄에 브레이크 포인트를 설정하려면 입력해야 하는 LLDB 명령어는?
 * (lldb) breakpoint set -file viewController.swift --line 23
 * (lldb) br s -file viewController.swift --line 23
