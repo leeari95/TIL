@@ -294,10 +294,11 @@ protocol ParentProtocol {}
 @objc
 Protocol SomeProtocol: ParentProtocol { }
 // 오류 - ParentProtocol은 objc 속성이 없습니다.
+```
 
 objc 속성이 부여된 열거형은 Objective-C 코드에서 사용할 수 있다.
 다만 원시값 타입을 Int로 지정해주어야 한다. 스위프트로 작성한 각 열거형 case의 이름은 Objective-C 코드에서 Objective-C 스타일의 열거형 case 이름으로 나타낸다. 예를들어 스위프트의 Planet 열거형의 earth 케이스는 Objective-C 코드에서 PlanetEarth라는 이름으로 나타낸다.
-
+```swift
 @objc
 enum Planet: Int {
     case mercury, venus, earth, mars, jupiter
