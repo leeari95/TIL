@@ -1,3 +1,4 @@
+# 210803 for-in 외 forEach
 # TIL (Today I Learned)
 
 날짜: 2021년 8월 3일
