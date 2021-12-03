@@ -1,6 +1,9 @@
 # TIL
 > Today I Learned
 
+
+---
+
 공부한 것을 기록합니다.
 - 내가 설명하지 못하는 것은 내가 아는 것이 아니다.
 - 사람은 망각의 동물이므로 내가 오늘 배운 내용을 금세 잊어버린다.
@@ -22,15 +25,18 @@
 - 공부하면서 메모한 내용들이라 완벽하지 않습니다. 
 - 공부한 흔적을 생생하게 남기는 목적으로 기록하고 있습니다. 
 
+---
+
 
 _59 TILs and counting..._
 
 ---
 
-### 2 most recent TILs
+### 3 most recent TILs
 
 - [TIL (Today I Learned)](2021-11/211126 App Life Cycle, CFGetRetainCount, README.md) - Fri Nov 26 22:08:13 2021 +0900
 - [TIL (Today I Learned)](2021-11/211125 Auto Layout, View Life Cycle, StaticString, fork해온 repository 잔디적용법.md) - Thu Nov 25 22:52:35 2021 +0900
+- [TIL (Today I Learned)](2021-11/211123 App Life Cycle, init(frame:), init(coder:), frame, bounds, IBOutlet didSet, updateViewConstraints.md) - Tue Nov 23 21:32:19 2021 +0900
 
 ### Categories
 
@@ -103,6 +109,5 @@ _59 TILs and counting..._
 - [TIL (Today I Learned)](2021-11/211125 Auto Layout, View Life Cycle, StaticString, fork해온 repository 잔디적용법.md)
 - [TIL (Today I Learned)](2021-11/211126 App Life Cycle, CFGetRetainCount, README.md)
 
-[1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
-[2]: https://github.com/jbranchaud/til
+[1]: https://github.com/marketplace/actions/til-auto-format-readme
 
