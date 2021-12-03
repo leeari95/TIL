@@ -46,5 +46,5 @@ jobs:
           
         footer: |
             [1]: https://github.com/marketplace/actions/til-auto-format-readme
-        list_most_recent: 3 # optional, lists most recent TILS below description
+        list_most_recent: 0 # optional, lists most recent TILS below description
         date_format: "2020 Jan 15:04" # optional, must align to https://golang.org/pkg/time/#Time.Format
