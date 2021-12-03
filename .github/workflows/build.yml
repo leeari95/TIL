@@ -18,6 +18,9 @@ jobs:
       uses: cflynn07/github-action-til-autoformat-readme@1.2.0
       with:
         description: |
+        
+          ---
+        
           공부한 것을 기록합니다.
           - 내가 설명하지 못하는 것은 내가 아는 것이 아니다.
           - 사람은 망각의 동물이므로 내가 오늘 배운 내용을 금세 잊어버린다.
@@ -38,8 +41,10 @@ jobs:
           - 정확하지 않은 내용이 있을 수도 있습니다.
           - 공부하면서 메모한 내용들이라 완벽하지 않습니다. 
           - 공부한 흔적을 생생하게 남기는 목적으로 기록하고 있습니다. 
+          
+          ---
+          
         footer: |
-          [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
-          [2]: https://github.com/jbranchaud/til
-        list_most_recent: 2 # optional, lists most recent TILS below description
+            [1]: https://github.com/marketplace/actions/til-auto-format-readme
+        list_most_recent: 3 # optional, lists most recent TILS below description
         date_format: "2020 Jan 15:04" # optional, must align to https://golang.org/pkg/time/#Time.Format
