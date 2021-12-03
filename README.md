@@ -39,7 +39,7 @@ _59 TILs and counting..._
 - [2021-11](#2021-11)
 
 ### [2021-08](#2021-08)
-- [TIL (Today I Learned) 정수와 실수](2021-08/210802 정수와 실수.md)
+- [210802 정수와 실수](2021-08/210802 정수와 실수.md)
 - [TIL (Today I Learned)](2021-08/210803 for-in 외 forEach.md)
 - [TIL (Today I Learned)](2021-08/210804 동적프로그래밍.md)
 - [TIL (Today I Learned)](2021-08/210805 API Design Guidelines.md)
