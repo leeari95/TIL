@@ -227,6 +227,6 @@ iOS 기기는 한정된 메모리를 가지고 애플리케이션을 구동한�
 ---
 
 - 참고링크
-    - https://www.boostcourse.org/mo326/lecture/20145?isDesc=false
+    - https://www.boostcourse.org/mo326/lecture/16860?isDesc=false 
     - https://developer.apple.com/documentation/uikit/views_and_controls/table_views
     - https://developer.apple.com/documentation/uikit/views_and_controls/table_views/filling_a_table_with_data
