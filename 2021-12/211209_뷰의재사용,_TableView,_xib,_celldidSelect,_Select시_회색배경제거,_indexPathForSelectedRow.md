@@ -177,6 +177,48 @@ var indexPathForSelectedRow: IndexPath? { get }
 
 ---
 
+**[화면 전환 시 데이터를 전달하는 두가지 방법]**
+
+- performSegue시 sender를 nil이 아니라 전달할 데이터를 입력후
+- prepare시 sender를 다운캐스팅을 활용하여 전달.
+
+```swift
+extension ItemListViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "ItemDetailView", sender: items[indexPath.row])
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+}
+
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    guard let item = sender as? ExpositionItem,
+          let nextViewController = segue.destination as? ItemDetailViewController else {
+          return
+      }
+    nextViewController.item = item
+}
+```
+
+- prepare 메소드 내부에서 선택된 셀의 indexpath를 구해서 전달하는 방법.
+
+```swift
+extension ItemListViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "ItemDetailView", sender: nil)
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+}
+
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    guard let indexPath = itemListTableVIew.indexPathForSelectedRow,
+          let nextViewController = segue.destination as? ItemDetailViewController else {
+        return
+    }
+    nextViewController.item = items[indexPath.row]
+}
+```
+---
+
 **[2기분들의 취뽀 후기]**
 * 취뽀하신 2기분들의 후기를 들어보니 캠프를 열심히 하면 되겠다는 생각이 들었다. (활동학습, 기록 등등..)
 * 최신 기술도 좋지만 기본기부터 탄탄하게 다지는 것이 중요하다고 느껴졌다.
