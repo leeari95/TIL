@@ -1,4 +1,4 @@
-# 211213 Accessibility, Dynamic Type, Voice over, fatalError, 함수형 프로그래밍
+# 211213 Accessibility, Dynamic Type, Voice over, fatalError, 함수형 프로그래밍, Vim
 # TIL (Today I Learned)
 
 
