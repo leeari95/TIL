@@ -106,7 +106,7 @@ _61 TILs and counting..._
 - [211208 Navigation Bar, UIImageView, NSMutableAttributedString, addAttribute](2021-12/211208_Navigation_Bar,_UIImageView,_NSMutableAttributedString,_addAttribute.md)
 - [211209 뷰의재사용, TableView, xib, celldidSelect, Select시 회색배경제거, indexPathForSelectedRow](2021-12/211209_뷰의재사용,_TableView,_xib,_celldidSelect,_Select시_회색배경제거,_indexPathForSelectedRow.md)
 - [211210 loadviewifneeded, Storyboard Reference](2021-12/211210_loadviewifneeded,_Storyboard_Reference.md)
-- [211213 Accessibility, Dynamic Type, Voice over, fatalError, 함수형 프로그래밍](2021-12/211213_Accessibility,_Dynamic_Type,_Voice_over,_fatalError,_함수형_프로그래밍,_Vim.md)
+- [211213 Accessibility, Dynamic Type, Voice over, fatalError, 함수형 프로그래밍, Vim](2021-12/211213_Accessibility,_Dynamic_Type,_Voice_over,_fatalError,_함수형_프로그래밍,_Vim.md)
 
 [1]: https://github.com/marketplace/actions/til-auto-format-readme
 
