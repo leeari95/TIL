@@ -100,7 +100,6 @@ _63 TILs and counting..._
 - [211126 App Life Cycle, CFGetRetainCount, README](2021-11/211126_App_Life_Cycle,_CFGetRetainCount,_README.md)
 
 ### [2021-12](#2021-12)
-- [](2021-12/# 211214_static,_Factory_Pattern,_visibleViewController.md)
 - [211203 TableView, 뷰의재사용](2021-12/211203_TableView,_뷰의재사용.md)
 - [211206 TableView 활동학습, JSON](2021-12/211206_TableView_활동학습,_JSON,_API.md)
 - [211207 NSDataAsset, 오답노트, Contents.JSON, Framework, Library, API](2021-12/211207_NSDataAsset,_오답노트,_Contents.JSON,_Framework,_Library,_API.md)
@@ -108,6 +107,7 @@ _63 TILs and counting..._
 - [211209 뷰의재사용, TableView, xib, celldidSelect, Select시 회색배경제거, indexPathForSelectedRow](2021-12/211209_뷰의재사용,_TableView,_xib,_celldidSelect,_Select시_회색배경제거,_indexPathForSelectedRow.md)
 - [211210 loadviewifneeded, Storyboard Reference](2021-12/211210_loadviewifneeded,_Storyboard_Reference.md)
 - [211213 Accessibility, Dynamic Type, Voice over, fatalError, 함수형 프로그래밍, Vim](2021-12/211213_Accessibility,_Dynamic_Type,_Voice_over,_fatalError,_함수형_프로그래밍,_Vim.md)
+- [](2021-12/211214_static,_Factory_Pattern,_visibleViewController.md)
 - [](2021-12/211215_운영체제와_데이터베이스.md)
 
 [1]: https://github.com/marketplace/actions/til-auto-format-readme
