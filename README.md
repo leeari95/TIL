@@ -28,7 +28,7 @@
 ---
 
 
-_63 TILs and counting..._
+_64 TILs and counting..._
 
 ---
 
@@ -109,6 +109,7 @@ _63 TILs and counting..._
 - [211213 Accessibility, Dynamic Type, Voice over, fatalError, 함수형 프로그래밍, Vim](2021-12/211213_Accessibility,_Dynamic_Type,_Voice_over,_fatalError,_함수형_프로그래밍,_Vim.md)
 - [211214 static, Factory Pattern, visibleViewController.md](2021-12/211214_static,_Factory_Pattern,_visibleViewController.md)
 - [211215 운영체제와 데이터베이스.md](2021-12/211215_운영체제와_데이터베이스.md)
+- [211216 sync, async, Parallel, Concurrency, GCD](2021-12/211216_sync,_async,_Parallel,_Concurrency,_GCD.md)
 
 [1]: https://github.com/marketplace/actions/til-auto-format-readme
 
