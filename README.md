@@ -28,7 +28,7 @@
 ---
 
 
-_69 TILs and counting..._
+_70 TILs and counting..._
 
 ---
 
@@ -115,6 +115,7 @@ _69 TILs and counting..._
 - [211221 CollectionView, Unit Test](2021-12/211221_CollectionView,_Unit_Test.md)
 - [211222 UICollectionViewFlowLayout, POP](2021-12/211222_UICollectionViewFlowLayout,_POP.md)
 - [211223 POP, delegate](2021-12/211223_POP,_delegate.md)
+- [211224 escapingClosure, autoClosure, weak, wildcard, naming](2021-12/211224_escapingClosure,_autoClosure,_weak,_wildcard,_naming.md)
 
 [1]: https://github.com/marketplace/actions/til-auto-format-readme
 
