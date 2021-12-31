@@ -28,7 +28,7 @@
 ---
 
 
-_75 TILs and counting..._
+_76 TILs and counting..._
 
 ---
 
@@ -121,6 +121,7 @@ _75 TILs and counting..._
 - [211228 Race Condition, DispatchSemaphore, HTTP](2021-12/211228_Race_Condition,_DispatchSemaphore,_HTTP.md)
 - [211229 TCP/IP](2021-12/211229_TCP_IP.md)
 - [211230 HTTP, UDID, UUID](2021-12/211230_HTTP,_UDID,_UUID.md)
+- [211231 inout, async, await, Thread Sanitizer](2021-12/211231_inout,_async,_await,_Thread_Sanitizer.md)
 
 [1]: https://github.com/marketplace/actions/til-auto-format-readme
 
