@@ -28,7 +28,7 @@
 ---
 
 
-_80 TILs and counting..._
+_81 TILs and counting..._
 
 ---
 
@@ -129,6 +129,7 @@ _80 TILs and counting..._
 - [220104 multipart, form-data, aync method test, 의존성 주입, Test Doubles](2022-01/220104_multipart,_form-data,_aync_method_test,_의존성_주입,_Test_Doubles.md)
 - [220105 URLProtocolMock, WWDC2018, URLSession, NetworkTest](2022-01/220105_URLProtocolMock,_WWDC2018,_URLSession,_NetworkTest.md)
 - [220106 UISegmentedControl, 오픈마켓PR1피드백](2022-01/220106_UISegmentedControl,_오픈마켓PR1피드백.md)
+- [220107 TableView, CollectionViewListCell, ContentOffset, ContentInset](2022-01/220107_TableView,_CollectionViewListCell,_ContentOffset,_ContentInset.md)
 
 [1]: https://github.com/marketplace/actions/til-auto-format-readme
 
