@@ -28,7 +28,7 @@
 ---
 
 
-_82 TILs and counting..._
+_83 TILs and counting..._
 
 ---
 
@@ -131,6 +131,7 @@ _82 TILs and counting..._
 - [220106 UISegmentedControl, 오픈마켓PR1피드백](2022-01/220106_UISegmentedControl,_오픈마켓PR1피드백.md)
 - [220107 TableView, CollectionViewListCell, ContentOffset, ContentInset](2022-01/220107_TableView,_CollectionViewListCell,_ContentOffset,_ContentInset.md)
 - [220110 FileManager, iOS File System, Multipart/form-data](2022-01/220110_FileManager,_iOS_File_System,_Multipart_form-data.md)
+- [220110 NSCache](2022-01/220110_NSCache.md)
 
 [1]: https://github.com/marketplace/actions/til-auto-format-readme
 
