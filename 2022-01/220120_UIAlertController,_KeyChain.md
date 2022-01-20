@@ -20,6 +20,7 @@ func alertInputPassword(complection: @escaping (String) -> Void) {
     var resultTextField = UITextField()
     let alert = UIAlertController(title: "비밀번호를 입력해주세요", message: nil, preferredStyle: .alert)
     alert.addTextField { userTextField in
+        userTextField.isSecureTextEntry = true // 텍스트를 암호화해준다.
         resultTextField = userTextField
     }
     let okAcrion = UIAlertAction(title: "OK", style: .default) { _ in
