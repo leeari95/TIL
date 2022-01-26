@@ -139,7 +139,7 @@ _91 TILs and counting..._
 - [220120 UIAlertController, KeyChain](2022-01/220120_UIAlertController,_KeyChain.md)
 - [220121 selectedBackgroundView, UIRefreshControl, 피드백, paging](2022-01/220121_selectedBackgroundView,_UIRefreshControl,_피드백,_paging.md)
 - [220124 CoreData, Dynamic Type, UIFontMetrics, setCustomSpacing, viewForZooming, 데이터베이스, SQL](2022-01/220124_CoreData,_Dynamic_Type,_UIFontMetrics,_setCustomSpacing,_viewForZooming,_데이터베이스,_SQL.md)
-- [220126 CoreData, UITapGestureRecognizer, UICollectionView](2022-01/220126_CoreData,_UITapGestureRecognizer,_UICollectionView.md)
+- [220125 CoreData, UITapGestureRecognizer, UICollectionView](2022-01/220125_CoreData,_UITapGestureRecognizer,_UICollectionView.md)
 
 [1]: https://github.com/marketplace/actions/til-auto-format-readme
 
