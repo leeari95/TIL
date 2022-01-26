@@ -1,4 +1,4 @@
-# 220125 CoreData, UITapGestureRecognizer, UICollectionView
+# 220125 UITapGestureRecognizer, UICollectionView
 # TIL (Today I Learned)
 
 
