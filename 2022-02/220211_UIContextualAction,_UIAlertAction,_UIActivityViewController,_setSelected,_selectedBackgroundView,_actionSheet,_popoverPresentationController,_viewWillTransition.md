@@ -25,7 +25,7 @@ let deleteAction = UIContextualAction(style: .destructive, title: nil) { _, _, c
 }
 deleteAction.image = UIImage(systemName: "trash.fill")
 ```
-* 먼저 UIContextualAction 인스턴스를 생성한다.
+* 먼저 [UIContextualAction](https://developer.apple.com/documentation/uikit/uicontextualaction) 인스턴스를 생성한다.
 * 생성할 때 title이 nil인게 포인트이다.
 * 이후 생성한 UIContextualAction에 image를 대입해주면 된다.
 
@@ -86,7 +86,7 @@ override func setSelected(_ selected: Bool, animated: Bool) {
     }
 }
 ```
-* 그리고 Cell이 초기화 될 때 selectedBackgroundView도 할당해준다.
+* 그리고 Cell이 초기화 될 때 [selectedBackgroundView](https://developer.apple.com/documentation/uikit/uitableviewcell/1623226-selectedbackgroundview)도 할당해준다.
 ```swift
 private func setUpViews() {
     ...
@@ -119,7 +119,7 @@ If this information is not known when you present the alert controller, you may 
 * 간단히 해석하자면 iPad에서 액션시트를 present를 할 경우 모달스타일이 UIModalPresentationPopover이고, 이걸 사용할 때는 barButtonItem 또는 해당 창의 대한 위치를 설정해주어야 한다고 되어있다.
 * 따라서 설정해주어야 하는 것은 2가지중 하나이다.
     * 필수적으로 sourceView 지정해주기
-    * popoverPresentationController에 sourceRect 또는 barButtonItem 할당해주기
+    * [popoverPresentationController](https://developer.apple.com/documentation/uikit/uiviewcontroller/1621428-popoverpresentationcontroller)에 sourceRect 또는 barButtonItem 할당해주기
 
 > 해결 방법
 
@@ -184,3 +184,6 @@ splitViewController?.popoverController = popoverController
     - https://stackoverflow.com/questions/30056236/uialertaction-list-of-values
     - https://royhelen.tistory.com/53
     - https://devsc.tistory.com/76
+    - https://velog.io/@dlskawns96/UITableViewCell%EC%97%90-%EC%BB%A4%EC%8A%A4%ED%85%80-Swipe-action-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-Swift
+    - https://nemecek.be/blog/5/how-to-implement-swipe-to-delete-action-with-custom-icon
+    - https://stackoverflow.com/questions/26347085/add-image-to-uialertaction-in-uialertcontroller
