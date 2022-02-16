@@ -28,7 +28,7 @@
 ---
 
 
-_98 TILs and counting..._
+_99 TILs and counting..._
 
 ---
 
@@ -150,6 +150,7 @@ _98 TILs and counting..._
 - [220210 Core Graphics, codegen, returnsObjectsAsFaults, NSFetchRequestResult, Array item to new position.](2022-02/220210_Core_Graphics,_codegen,_returnsObjectsAsFaults,_NSFetchRequestResult,_Array_item_to_new_position.md)
 - [220211 UIContextualAction, UIAlertAction, UIActivityViewController, setSelected, selectedBackgroundView, actionSheet, popoverPresentationController, viewWillTransition](2022-02/220211_UIContextualAction,_UIAlertAction,_UIActivityViewController,_setSelected,_selectedBackgroundView,_actionSheet,_popoverPresentationController,_viewWillTransition.md)
 - [220214 Core Animation, CABasicAnimation, append, escaping, UITableView-Crash, UITextViewDelegate, typingAttributes](2022-02/220214_Core_Animation,_CABasicAnimation,_append,_escaping,_UITableView-Crash,_UITextViewDelegate,_typingAttributes.md)
+- [220215 Dropbox, weak self, escaping, Delayed Deallocation, performBatchUpdate, setEditing](2022-02/220215_Dropbox,_weak_self,_escaping,_Delayed_Deallocation,_performBatchUpdate,_setEditing.md)
 
 [1]: https://github.com/marketplace/actions/til-auto-format-readme
 
