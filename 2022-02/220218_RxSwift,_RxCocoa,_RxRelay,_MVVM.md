@@ -35,7 +35,7 @@
 
 ![](https://i.imgur.com/bDymOxA.png)
 
-from
+### from
 * 데이터를 하나씩 여러개 전달하고 싶을 때 사용한다.
 * 그럼 next에 Hello 한번, World 두번 총 두개의 데이터가 차례대로 전달된다.
 
