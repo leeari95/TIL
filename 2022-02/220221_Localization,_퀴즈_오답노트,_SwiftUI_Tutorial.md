@@ -636,6 +636,9 @@ LazyVGrid(columns: [GridItem(.adaptive(minimum: 80))]) { // 화면을 그리드 
 }
 ```
 
+> 얼추 완성된 카드게임
+![](https://i.imgur.com/IriKYbE.gif)
+
 ---
 
 - 참고링크
