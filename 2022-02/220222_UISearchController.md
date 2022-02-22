@@ -1,7 +1,7 @@
 # 220222 UISearchController
 # TIL (Today I Learned)
 
-2월 21일 (월)
+2월 22일 (화)
 
 ## 학습 내용
 
