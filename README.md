@@ -28,7 +28,7 @@
 ---
 
 
-_103 TILs and counting..._
+_104 TILs and counting..._
 
 ---
 
@@ -155,6 +155,7 @@ _103 TILs and counting..._
 - [220218 RxSwift, RxCocoa, RxRelay, MVVM](2022-02/220218_RxSwift,_RxCocoa,_RxRelay,_MVVM.md)
 - [220221 Localization, 퀴즈 오답노트, SwiftUI Tutorial](2022-02/220221_Localization,_퀴즈_오답노트,_SwiftUI_Tutorial.md)
 - [220222 UISearchController](2022-02/220222_UISearchController.md)
+- [220224 SwiftUI, Property Wrapper, Divider, List, GeometryReader](2022-02/220224_SwiftUI,_Property_Wrapper,_Divider,_List,_GeometryReader.md)
 
 [1]: https://github.com/marketplace/actions/til-auto-format-readme
 
