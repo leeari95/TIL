@@ -161,7 +161,7 @@ _107 TILs and counting..._
 - [220228 UserNotifications, AppDelegate](2022-02/220228_UserNotifications,_AppDelegate.md)
 
 ### [2022-03](#2022-03)
-- [220228 MVVM, 프로젝트 설계](2022-03/220228_MVVM,_프로젝트_설계.md)
+- [220301 MVVM, 프로젝트 설계](2022-03/220301_MVVM,_프로젝트_설계.md)
 
 [1]: https://github.com/marketplace/actions/til-auto-format-readme
 
