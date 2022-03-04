@@ -20,6 +20,13 @@ Rx로 ViewModel 구현해보겠다고 설치다가 결국엔 다 지웠다.
 다 지우고 클린 아키텍처라도 적용해보자고 맘먹고 ViewModel을 짜보았다.
 (근데 시간이 될까..?)
 
+### MVVM을 왜 쓸까?
+* 구체적인 View를 알지 못하더라도 요구사항에 따라 ViewModel을 설계할 수 있다.
+* ViewModel을 재사용 단위로 설계할 수도 있다.
+* Testable하다.
+* MVVM을 쓰는 가장 큰 이유는 Command 패턴과 Data Binding이 핵심이기 때문
+* View에서 명령을 주면 ViewModel에서 처리하고 데이터를 View에 알아서 바인딩 해주는 시스템
+
 ### Presentation
 * View 
 * ViewModel: UI 이벤트가 발생하면 어떤 이벤트인지 판단 후 UseCase를 요청한 후 View에 업데이트를 하라고 알려줌
