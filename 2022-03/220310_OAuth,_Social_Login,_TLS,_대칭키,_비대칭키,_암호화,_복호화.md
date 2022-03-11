@@ -1,4 +1,4 @@
-# 220310 OAuth, Social Login, TLS, 대칭키, 비대칭키
+# 220310 OAuth, Social Login, TLS, 대칭키, 비대칭키, 암호화, 복호화
 
 # TIL (Today I Learned)
 3월 10일 (목)
