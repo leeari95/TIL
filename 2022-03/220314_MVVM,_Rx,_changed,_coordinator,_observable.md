@@ -15,6 +15,53 @@
 
 ## 고민한 점 / 해결 방법
 
+**[3월 14일 퀴즈 오답노트]**
+
+`1초당 120프레임으로 실행되는 프로세스이며 Constranints, Layout, Display의 3개 Phase로 구성되는 것은?`
+* Render Loop
+
+![](https://i.imgur.com/62imUsh.png)
+
+`객체지향 프로그래밍 OOP의 4대 특징`
+* 캡슐화, 상속, 다형성, 추상화
+
+`Render Loop의 다음 update Cycle에서 Constraints에 대한 갱신이 일괄적으로 일어나도록 변경사항을 예약하는 메서드는?`
+* setNeedsUpdateConstraints
+    * 다음 업데이트 사이클에서 제약조건에 대한 갱신이 일괄적으로 일어나도록 변경사항을 예약한다
+
+>실제로 업데이트 실행(재정의할 뿐 직접 호출하면 안된다!)
+* updateConstraints
+
+>다음 업데이트 주기에 업데이트가 필요한 것으로 명시적으로 표시
+* setNeedsUpdateConstraints
+
+>업데이트가 필요하면 즉시 업데이트
+* updateConstraintsIfNeeded
+
+`현재 많이 사용되고있는 HTTP의 버전은?`
+* 1.1 버전
+    * 1997년 1월에 최초 개발된 표준 프로토콜이며 현재도 많이 사용하고 있다.
+
+`자식 클래스에서 프로퍼티를 override 하려고하는데, 에러나지 않는 구문은?`
+
+![](https://i.imgur.com/opM0lfq.jpg)
+
+`재귀함수를 주의해서 사용하지 못하면 스택 오버 플로우가 발생한다.`
+* 함수는 스택영역에서 실행되는데 재귀함수는 자기자신을 반복적으로 호출하게 된다. 따라서 반복적인 함수 호출로 인한 스택 오버 플로우가 발생한다.
+
+`async await 구문을 올바르게 사용하는 방법`
+
+![](https://i.imgur.com/sCmEzYG.jpg)
+
+1. async
+2. throws
+3. try
+4. await
+
+![](https://i.imgur.com/bCi5eRX.png)
+
+---
+
 **[웨더와 함께하는 MVVM 실습!]**
 
 * ViewModel의 경우 UIKit을 import 하지 않는 것이 중요하다.
@@ -292,4 +339,3 @@ let input = DetailViewModel.Input(
     - https://velog.io/@dvhuni/UITextField%EC%97%90%EC%84%9C-rx.text%EB%A1%9C-%EB%B3%80%EA%B2%BD%EB%90%9C-%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EA%B0%90%EC%A7%80%ED%95%98%EA%B8%B0
     - https://duwjdtn11.tistory.com/644
     - https://jintaewoo.tistory.com/58
-
