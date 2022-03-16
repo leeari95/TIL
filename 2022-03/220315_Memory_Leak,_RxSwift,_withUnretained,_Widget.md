@@ -287,3 +287,5 @@ Widget의 디스플레이를 업데이트 할 시기를 WidgetKit에 알려주�
     - https://velog.io/@dlskawns96/RxSwift-Closure%EC%97%90%EC%84%9C-Memory-Leak-%ED%94%BC%ED%95%98%EA%B8%B0
     - https://zeddios.tistory.com/1088
     - https://zeddios.tistory.com/1089
+    - https://www.youtube.com/watch?v=wOrkcdeui4U
+    - https://developer.apple.com/documentation/widgetkit/creating-a-widget-extension
