@@ -28,7 +28,7 @@
 ---
 
 
-_116 TILs and counting..._
+_117 TILs and counting..._
 
 ---
 
@@ -171,6 +171,7 @@ _116 TILs and counting..._
 - [220317 Widget, Timeline, Decorator Pattern](2022-03/220317_Widget,_Timeline,_Decorator_Pattern.md)
 - [220318 UIStoryboard, Spell checking in Xcode, Quick help](2022-03/220318_UIStoryboard,_Spell_checking_in_Xcode,_Quick_help.md)
 - [220321 App Distribution, Hashable](2022-03/220321_App_Distribution,_Hashable.md)
+- [220322 Flyweight, Facade](2022-03/220322_Flyweight,_Facade.md)
 
 [1]: https://github.com/marketplace/actions/til-auto-format-readme
 
