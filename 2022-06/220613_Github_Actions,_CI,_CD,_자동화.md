@@ -121,9 +121,9 @@ on:
 
 # workflow의 실행은 하나 이상의 job으로 구성 됨
 jobs:
-  # # 이 workflow 는 "build" 라는 single job 으로 구성
+  # 이 workflow 는 "build" 라는 single job 으로 구성
   build:
-    # # job이 실행될 환경 - 최신 mac os
+    # job이 실행될 환경 - 최신 mac os
     runs-on: macos-latest
 
     # Steps은 job의 일부로 실행될 일련의 task들을 나타냄
