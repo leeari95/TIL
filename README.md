@@ -28,7 +28,7 @@
 ---
 
 
-_120 TILs and counting..._
+_121 TILs and counting..._
 
 ---
 
@@ -42,6 +42,7 @@ _120 TILs and counting..._
 - [2022-02](#2022-02)
 - [2022-03](#2022-03)
 - [2022-05](#2022-05)
+- [2022-06](#2022-06)
 
 ### [2021-08](#2021-08)
 - [210802 정수와 실수](2021-08/210802_정수와_실수.md)
@@ -178,6 +179,9 @@ _120 TILs and counting..._
 ### [2022-05](#2022-05)
 - [220520 URLSession, NSCache, 셀 재사용](2022-05/220520_URLSession,_NSCache,_셀_재사용.md)
 - [220523 API, REST API, Array, Set, Tuple, Library, map](2022-05/220523_API,_REST_API,_Array,_Set,_Tuple,_Library,_map.md)
+
+### [2022-06](#2022-06)
+- [220613 Github Actions, CI, CD, 자동화](2022-06/220613_Github_Actions,_CI,_CD,_자동화.md)
 
 [1]: https://github.com/marketplace/actions/til-auto-format-readme
 
