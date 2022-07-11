@@ -28,7 +28,7 @@
 ---
 
 
-_121 TILs and counting..._
+_122 TILs and counting..._
 
 ---
 
@@ -43,6 +43,7 @@ _121 TILs and counting..._
 - [2022-03](#2022-03)
 - [2022-05](#2022-05)
 - [2022-06](#2022-06)
+- [2022-07](#2022-07)
 
 ### [2021-08](#2021-08)
 - [210802 정수와 실수](2021-08/210802_정수와_실수.md)
@@ -182,6 +183,9 @@ _121 TILs and counting..._
 
 ### [2022-06](#2022-06)
 - [220613 Github Actions, CI, CD, 자동화](2022-06/220613_Github_Actions,_CI,_CD,_자동화.md)
+
+### [2022-07](#2022-07)
+- [220711 ARC, dismiss, popViewController, memory leak](2022-07/220711_ARC,_dismiss,_popViewController,_memory_leak.md)
 
 [1]: https://github.com/marketplace/actions/til-auto-format-readme
 
