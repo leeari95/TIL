@@ -182,7 +182,7 @@ _127 TILs and counting..._
 - [220711 ARC, dismiss, popViewController, memory leak](UIKit/220711_ARC,_dismiss,_popViewController,_memory_leak.md)
 - [230710 addSubview, Reference Count](UIKit/230710_addSubview_ReferenceCount.md)
 - [230904 keyboardLayoutGuide](UIKit/230904_keyboardLayoutGuide.md)
-- [230911 openNotificationSettingsURLString](UIKit/230911_ openNotificationSettingsURLString.md)
+- [230911 openNotificationSettingsURLString](UIKit/230911_openNotificationSettingsURLString.md)
 
 ### [Xcode](#Xcode)
 - [211015 LLDB, GCD, Thread, Serial Queue, Async](Xcode/211015_LLDB,_GCD,_Thread,_Serial_Queue,_Async.md)
