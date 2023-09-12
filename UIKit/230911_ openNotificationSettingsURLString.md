@@ -1,6 +1,6 @@
 # 230911 openNotificationSettingsURLString
-# TIL (Today I Learned)
 
+# TIL (Today I Learned)
 
 9월 9일 (토)
 
@@ -15,10 +15,14 @@
 iOS 16.0 부터만 가능한 것 같다.
 
 ```swift
-
-guard let settingsURL = URL(string: UIApplication.openNotificationSettingsURLString) else { return }
-Task {
-    UIApplication.shared.open(settingsURL)
+@available(iOS 16.0, *)
+static func notificationSettings() {
+    guard let settingsURL = URL(string: UIApplication.openNotificationSettingsURLString) else {
+        return
+    }
+    Task {
+        UIApplication.shared.open(settingsURL)
+    }
 }
 ```
 
