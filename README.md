@@ -33,7 +33,7 @@
 ---
 
 
-_128 TILs and counting..._
+_129 TILs and counting..._
 
 ---
 
@@ -184,6 +184,7 @@ _128 TILs and counting..._
 - [230904 keyboardLayoutGuide](UIKit/230904_keyboardLayoutGuide.md)
 - [230911 openNotificationSettingsURLString](UIKit/230911_openNotificationSettingsURLString.md)
 - [230915 UIImage, withTintColor, renderingMode](UIKit/230915_UIImage_withTintColor_renderingMode.md)
+- [231201 AVPlayer, waitingToPlayAtSpecifiedRate, evaluatingBufferingRate](UIKit/231201_AVPlayer,_waitingToPlayAtSpecifiedRate,_waitingToPlayAtSpecifiedRate.md)
 
 ### [Xcode](#Xcode)
 - [211015 LLDB, GCD, Thread, Serial Queue, Async](Xcode/211015_LLDB,_GCD,_Thread,_Serial_Queue,_Async.md)
