@@ -15,7 +15,7 @@
 
 > UserDefaults는 기본적으로 캐시를 지원하고 있다...!
 
-![image](https://github.com/leeari95/TIL/assets/75905803/923d8e74-eeca-40c9-922f-2cf3eb1a537f)
+![image](https://github.com/leeari95/TIL/assets/75905803/bf597777-7c3e-4192-9add-a30fbdc5ef81)
 
 </br>
 
@@ -29,7 +29,8 @@
 
 그래서 이를 일일이 바꿔주기에는 뭔가 노가다 같아서... 좋은 방법이 없을까 찾다가 발견했다.
 
-![image](https://github.com/leeari95/TIL/assets/75905803/bf597777-7c3e-4192-9add-a30fbdc5ef81)
+![image](https://github.com/leeari95/TIL/assets/75905803/923d8e74-eeca-40c9-922f-2cf3eb1a537f)
+
 
 이렇게 텍스트 뿐만 아니라 정규 표현식을 사용하여 프로젝트 내에 특정 문자열을 골라낼 수가 있었다.
 그리고 이를 활용하여 특정 문자열을 남겨두고 나머지 문자열만 바꿔치기가 가능했다.
