@@ -61,11 +61,11 @@
 
 ## Topics
 
-- <doc:CS>
-- <doc:Git>
-- <doc:Rx>
 - <doc:Swift>
-- <doc:SwiftUI>
 - <doc:UIKit>
 - <doc:Xcode>
+- <doc:Git>
+- <doc:Rx>
+- <doc:SwiftUI>
 - <doc:Architecture>
+- <doc:CS>
