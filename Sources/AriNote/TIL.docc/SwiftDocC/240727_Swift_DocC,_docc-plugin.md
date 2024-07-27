@@ -36,7 +36,7 @@ swift package init --type executable --name {패키지 이름}
 └──     └── main.swift
 ```
 
-<img width="1512" alt="image" src="https://github.com/user-attachments/assets/5c93c8ee-b1f6-474d-8fc7-9123a25a1102">
+![](https://github.com/user-attachments/assets/5c93c8ee-b1f6-474d-8fc7-9123a25a1102)
 
 #
 
@@ -48,14 +48,14 @@ swift package init --type executable --name {패키지 이름}
 1. Xcode 프로그램을 열고, 왼쪽에 있는 Project navigator에서 작업하고 있는 프로젝트나 패키지를 클릭한다.
 
 2. `File` > `New` > `File from Template`을 선택하여 file template chooser를 열어준다. (CMD + N)
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/9bf45a2c-8fd9-4fbb-8be0-fff0c2a5f6c3">
+![](https://github.com/user-attachments/assets/9bf45a2c-8fd9-4fbb-8be0-fff0c2a5f6c3)
 
 
 3. 템플릿 중에 `Documentation` 섹션으로 가서 `Documentation Catalog`라는 템플릿을 선택하고, `Next` 버튼을 클릭한다.
-<img width="842" alt="image" src="https://github.com/user-attachments/assets/4430f431-57be-44e2-9e73-95a244afb434">
+![](https://github.com/user-attachments/assets/4430f431-57be-44e2-9e73-95a244afb434)
 
 4. `Next` 버튼을 클릭하면 `Documentation`이 생성된다.
-<img width="196" alt="image" src="https://github.com/user-attachments/assets/268b55b3-22ae-409d-94f9-aeb607f6d602">
+![](https://github.com/user-attachments/assets/268b55b3-22ae-409d-94f9-aeb607f6d602)
 
 #
 
@@ -130,7 +130,7 @@ public headers ("include") directory path for 'AriNote' is invalid or not contai
 
 아래와 같이 빈 swift 파일을 추가해주니 경고가 해결되었다.
 
-<img width="1512" alt="image" src="https://github.com/user-attachments/assets/f815a505-246b-47d3-8b9c-fa39cbe205d6">
+![](https://github.com/user-attachments/assets/f815a505-246b-47d3-8b9c-fa39cbe205d6)
 
 
 
