@@ -9,9 +9,18 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   update-markdown:
     runs-on: macos-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
     - name: Checkout repository
@@ -28,23 +37,6 @@ jobs:
           echo "Script execution failed"
           exit 1
         fi
-
-  deploy:
-    runs-on: macos-latest
-    needs: update-markdown
-
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:  
-    - name: Checkout repository
-      uses: actions/checkout@v4
 
     - name: Build Documentation
       working-directory: ${{ github.workspace }}
