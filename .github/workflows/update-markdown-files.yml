@@ -5,26 +5,19 @@ on:
     branches:
       - main
 
-# GitHub Pages에 배포할 수 있도록 GITHUB_TOKEN의 권한을 설정합니다.
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
 jobs:
   update-markdown:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-
-    - name: Install Swift
-      uses: swift-actions/setup-swift@v2
+      with:
+        fetch-depth: 1
 
     - name: Run Swift script and check result
       working-directory: ${{ github.workspace }}
@@ -36,6 +29,23 @@ jobs:
           exit 1
         fi
 
+  deploy:
+    runs-on: macos-latest
+    needs: update-markdown
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:  
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
     - name: Build Documentation
       working-directory: ${{ github.workspace }}
       run: |
@@ -45,9 +55,13 @@ jobs:
         --transform-for-static-hosting \
         --hosting-base-path TIL \
         --output-path ./docs
-
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@v4.6.0
+  
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
       with:
-        branch: gh-pages
-        folder: docs
+        path: 'docs'
+        name: 'github-pages'
+
+    - name: Deploy to Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
