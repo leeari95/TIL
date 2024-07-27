@@ -69,3 +69,4 @@
 - <doc:SwiftUI>
 - <doc:Architecture>
 - <doc:CS>
+- <doc:SwiftDocC>
