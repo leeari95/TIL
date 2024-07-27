@@ -3,6 +3,7 @@
 @Metadata { 
     @TitleHeading("Welcome to") 
     @DisplayName("Ari's Notes")
+    @PageImage(purpose: icon, source: "ari")
 }
 @Options(scope: global) { 
     @AutomaticSeeAlso(disabled)

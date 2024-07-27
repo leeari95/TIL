@@ -55,6 +55,12 @@ jobs:
         --transform-for-static-hosting \
         --hosting-base-path TIL \
         --output-path ./docs
+
+    - name: Override Favicons
+      run: |
+        rm ./docs/favicon.svg
+        rm ./docs/favicon.ico
+        cp ./favicon.ico ./docs/favicon.ico
   
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
