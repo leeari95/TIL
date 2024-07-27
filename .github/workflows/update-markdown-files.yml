@@ -1,0 +1,45 @@
+name: Update Markdown Files
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-markdown:
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 1
+
+    - name: Set up Swift
+      uses: swift-actions/setup-swift@v2
+      with:
+        swift-version: "5.10.1"
+      run: swift --version
+
+    - name: Run Swift script and check result
+      working-directory: ${{ github.workspace }}
+      run: |
+        if swift run Script; then
+          echo "Script executed successfully"
+        else
+          echo "Script execution failed"
+          exit 1
+        fi
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add .
+        git diff --quiet && git diff --staged --quiet || git commit -m "chore: Update markdown files"
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
