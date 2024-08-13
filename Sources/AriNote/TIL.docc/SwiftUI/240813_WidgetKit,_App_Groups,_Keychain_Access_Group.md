@@ -71,7 +71,7 @@ let userDefaults = UserDefaults(suiteName: "group.com.domain.appName") // 앱 �
 기존에 우리 프로젝트는 비밀번호 같은 credential한 정보는 keychain을 통해 저장하고 있다.
 이런 정보가 위젯에서도 필요한 경우가 있어서 알아보았다. 방법은 App Groups을 추가하는 방법과 꽤나 유사하다.
 
-### 1. **Xcode에서** App Group 추가하는 방법
+### 1. **Xcode에서** Keychain Access Group 추가하는 방법
 
 * Xcode에서 프로젝트 내 왼쪽 사이드바에서 '프로젝트 이름'을 클릭한 후 Targets 리스트에서 해당하는 앱을 선택한다.
 * 상단의 'Signing & Capabilities' 탭을 클릭한다.
@@ -82,7 +82,7 @@ let userDefaults = UserDefaults(suiteName: "group.com.domain.appName") // 앱 �
   * `Provisioning profile "iOS Team Provisioning Profile: <# Team ID #>" doesn't match the entitlements file's value for the keychain-access-groups entitlement.` 
 * 앱의 팀 ID에 해당하는 값으로 동일한 개발자 팀이 만든 앱들만 키체인 항목을 공유할 수 있도록 보안을 강화하기 위함이다.
 
-### 2. **entitlements** 파일에서 App Group 추가하는 방법
+### 2. **entitlements** 파일에서 Keychain Access Group 추가하는 방법
 
   * 프로젝트 내에서 다음과 같이 키체인 접근 그룹을 추가한다.
 
