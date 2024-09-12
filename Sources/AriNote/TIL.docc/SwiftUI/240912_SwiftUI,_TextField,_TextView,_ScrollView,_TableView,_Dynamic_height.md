@@ -22,7 +22,16 @@
 그에 따라 스크롤뷰의 높이도 늘어나게 되면서...
 입력 커서의 포커싱도 화면 밖으로 나가지 않도록 사용성 문제를 해결하기 위해 삽질을 하게 되었다.
 
+
+
 ## 내가 시도한 방법들
+
+문제 상황은 다음과 같았다:
+
+- **UITextView를 SwiftUI 환경에서 사용**하기 위해 래핑하여 활용 중.
+* 위 래핑한 UITextView를 래핑한 ScrollView, SwiftUI의 ScrollView에 콘텐츠 뷰로 넣어두고 동적으로 높이가 늘어나는 뷰를 구현하는 상황.
+  * isScrollEnabled는 false로 설정됨.
+- UITextView에 글자를 입력할 때, **입력 커서가 아래로 이동할 때마다 스크롤도 자동으로 커서 위치에 맞춰 이동**해야 함.
 
 ### 1. `ScrollView`, `ScrollViewReader` 활용
 
